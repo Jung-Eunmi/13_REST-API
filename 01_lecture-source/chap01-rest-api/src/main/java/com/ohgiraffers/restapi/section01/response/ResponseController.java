@@ -66,4 +66,5 @@ public class ResponseController {
     public byte[] getImage() throws IOException {
         return getClass().getResourceAsStream("/images/g.png").readAllBytes();
     }
+
 }
