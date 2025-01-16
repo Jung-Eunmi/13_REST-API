@@ -35,7 +35,6 @@ public class HateoasController {
 
     private List<UserDTO> users;
 
-    /* 임시 DB 에서 조회해 온 값 설정 */
     public HateoasController() {
         users = new ArrayList<>();
 
